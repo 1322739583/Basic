@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/counter/counter",
+    "pages/for_test/for_test",
+    "pages/favor/favor",
+    "pages/index/index",
+    "pages/network/network_request",
+    "pages/logs/logs",
+    "pages/cpns/index",
+    "pages/login/login",
+    "pages/storage/storage",
+    "pages/map/map",
+    "pages/map/reverseLocation/reverse",
+    "pages/map/location/location",
+    "pages/nav_pages/detail/detail",
+    "pages/nav/index",
+    "pages/nav_pages/info/info"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    },
+    "scope.userFuzzyLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getFuzzyLocation"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

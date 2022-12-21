@@ -1,0 +1,7 @@
+<!--Basic/pages/cpns/index.wxml-->
+<section-info title="呐喊" content="人们醒过来，发现没有路可以走" changebg="main_bg" bind:titleClick="onTitleClick">
+</section-info>
+<section-info>
+</section-info>
+<section-info>
+</section-info>

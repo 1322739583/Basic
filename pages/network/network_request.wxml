@@ -1,0 +1,9 @@
+<!--Basic/pages/network/network_requst.wxml-->
+<view>
+    <block wx:for="{{houselist}}" wx:key="{{item.data.houseId}}">
+        <view>
+          <image src="{{item.data.image.url}}"></image>
+          <text>{{item.data.houseName}}</text>
+        </view>    
+    </block>
+</view>

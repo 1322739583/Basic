@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "section-info":"../../components/cpns/section-info/section-info"
+  }
+}

@@ -1,0 +1,3 @@
+<!--pages/nav_pages/info/info.wxml-->
+<text>pages/nav_pages/info/info.wxml</text>
+<button type="primary" bindtap="onBack">返回</button>

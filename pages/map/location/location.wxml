@@ -1,0 +1,6 @@
+<!--pages/map/location/location.wxml-->
+<button bindtap="getLoacation">01 getLocation</button><br/>
+<button bindtap="openLocation">02 openLocation</button>
+<button bindtap="chooseLocation">03 chooseLocation</button>
+<button bindtap="choosePIO">04 choosePIO</button>
+<button bindtap="getFuzzyLocation">05 getFuzzyLocation</button>

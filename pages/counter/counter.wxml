@@ -1,0 +1,5 @@
+<!--pages/counter/counter.wxml-->
+<text>{{count}}</text>
+<button bindtap="increment">+1</button>
+<button bindtap="decrement">-1</button>
+

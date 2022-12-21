@@ -1,0 +1,7 @@
+<!--pages/for_test/for_test.wxml-->
+<view wx:for="{{city}}" wx:key="item">
+    {{index}}:{{item}}
+</view>
+<view wx:for="{{city}}" wx:for-index="i" wx:for-item="c" wx:key="item">
+    {{i}}:{{c}}
+</view>

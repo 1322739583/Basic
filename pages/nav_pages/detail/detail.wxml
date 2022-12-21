@@ -1,0 +1,2 @@
+<!--pages/nav_pages/detail/detail.wxml-->
+<button type="primary" size="mini" bindtap="toInfo">跳转到info</button>

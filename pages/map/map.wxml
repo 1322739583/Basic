@@ -1,0 +1,5 @@
+<!--pages/map/map.wxml-->
+<text>pages/map/map.wxml</text>
+<map id="map">
+
+</map>

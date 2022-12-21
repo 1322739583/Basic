@@ -1,0 +1,5 @@
+<!--Basic/pages/cpns/section-info/section-info.wxml-->
+<view>
+   <text class="title changebg" bindtap="textClick">{{title}}</text><br/>
+   <text class="content">{{content}}</text>
+</view>

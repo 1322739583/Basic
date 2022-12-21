@@ -1,0 +1,4 @@
+/* Basic/pages/cpns/index.wxss */
+.main_bg{
+  background-color: lightgreen;
+}

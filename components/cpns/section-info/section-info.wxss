@@ -1,0 +1,5 @@
+/* Basic/pages/cpns/section-info/section-info.wxss */
+.title{
+  font-size: 16px;
+  color: lightcoral;
+}

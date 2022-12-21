@@ -1,0 +1,4 @@
+<!--pages/列表渲染/列表渲染.wxml-->
+<view wx:for="{{city}}">
+    {{index}}:{{item}}
+</view>

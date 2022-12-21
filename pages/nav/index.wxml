@@ -1,0 +1,2 @@
+<!--pages/nav/index.wxml-->
+<button size="mini" type="primary" bindtap="toDetail">跳转到detail页面</button>
