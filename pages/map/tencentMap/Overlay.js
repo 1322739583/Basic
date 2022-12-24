@@ -1,47 +1,37 @@
-// pages/nav_pages/info/info.js
+// pages/map/tencentMap/Overlay.js
+// import {initMap,loadScript} from './js/overlay_img.js'
+import { show } from "./js/info.js"
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
-  },
-
-  onBack(){
-
-
-    // wx.navigateBack({
-    //   delta: 2,
-    //   success: (res) => {},
-    //   fail: (res) => {},
-    //   complete: (res) => {},
-    // })
-
-
+    
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
-
-
+    // loadScript()
+    // initMap()
+    // console.log("onLoad");
+    show()
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady() {
-
+    console.log("onReady");
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow() {
-
+    console.log("onShow");
   },
 
   /**
@@ -55,14 +45,6 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload() {
-    //返回值 方式一
-    // const pages=getCurrentPages()
-    // console.log(pages);
-    // //回退两个页面
-    // const targetPage=pages[pages.length-3]
-    // targetPage.setData({message:"msg from info"})
-    const eventChannel=this.getOpenerEventChannel()
-    eventChannel.emit("backData2",{name:"abc",age:18})
 
   },
 

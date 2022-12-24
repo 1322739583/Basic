@@ -6,7 +6,8 @@ Page({
    */
   data: {
      name:"Tom",
-     age:18
+     age:18,
+     message:""
   },
 
   toDetail(){
@@ -14,9 +15,21 @@ Page({
     const age=this.data.age
     wx.navigateTo({
       url: `/pages/nav_pages/detail/detail?name=${name}&age=${age}`,
-      // events: events,
-      success: (result) => {},
-      fail: (res) => {},
+      events: {
+        //方法名字随便取
+        backData1(data){
+          console.log("backData1",data)
+        },
+        backData2(data){
+
+        }
+      },
+      success: (result) => {
+        console.log(result);
+      },
+      fail: (res) => {
+        console.log(res);
+      },
       complete: (res) => {},
     })
   },

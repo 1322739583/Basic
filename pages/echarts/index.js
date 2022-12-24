@@ -1,32 +1,36 @@
-// pages/nav_pages/info/info.js
+// pages/echarts/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
-  },
-
-  onBack(){
-
-
-    // wx.navigateBack({
-    //   delta: 2,
-    //   success: (res) => {},
-    //   fail: (res) => {},
-    //   complete: (res) => {},
-    // })
-
-
+    echartOption :{
+      title: {
+        text: 'ECharts 入门示例'
+      },
+      tooltip: {},
+      legend: {
+        data: ['销量']
+      },
+      xAxis: {
+        data: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
+      },
+      yAxis: {
+        // data:["a","b"]
+      },
+      series: [{
+        name: '销量',
+        type: 'bar',
+        data: [5, 20, 36, 10, 10, 20]
+      }]
+    }
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
-
 
   },
 
@@ -55,14 +59,6 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload() {
-    //返回值 方式一
-    // const pages=getCurrentPages()
-    // console.log(pages);
-    // //回退两个页面
-    // const targetPage=pages[pages.length-3]
-    // targetPage.setData({message:"msg from info"})
-    const eventChannel=this.getOpenerEventChannel()
-    eventChannel.emit("backData2",{name:"abc",age:18})
 
   },
 

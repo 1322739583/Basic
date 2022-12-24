@@ -56,23 +56,22 @@ Page({
   choosePIO(){
     wx.choosePoi()
   },
-  getFuzzyLocation(){
-    
-    wx.getFuzzyLocation({
-      type: 'gcj02',
-      success (res) {
-        const latitude = res.latitude
-        const longitude = res.longitude
-        wx.openLocation({
-          latitude: latitude,
-          longitude: longitude,
-        })
-      },
-      fail(err){
-        console.log(err);
-      }
-     })
-  },
+  // getFuzzyLocation(){
+  //   wx.getFuzzyLocation({
+  //     type: 'gcj02',
+  //     success (res) {
+  //       const latitude = res.latitude
+  //       const longitude = res.longitude
+  //       wx.openLocation({
+  //         latitude: latitude,
+  //         longitude: longitude,
+  //       })
+  //     },
+  //     fail(err){
+  //       console.log(err);
+  //     }
+  //    })
+  // },
 
   /**
    * 生命周期函数--监听页面初次渲染完成

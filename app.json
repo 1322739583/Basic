@@ -14,19 +14,22 @@
     "pages/map/location/location",
     "pages/nav_pages/detail/detail",
     "pages/nav/index",
-    "pages/nav_pages/info/info"
+    "pages/nav_pages/info/info",
+    "pages/echarts/index",
+    "pages/ucharts/index",
+    "pages/map/tencentMap/Overlay",
+    "pages/map/search/search",
+    "pages/qrcode/qrcode"
   ],
   "permission": {
     "scope.userLocation": {
       "desc": "你的位置信息将用于小程序位置接口的效果展示"
-    },
-    "scope.userFuzzyLocation": {
-      "desc": "你的位置信息将用于小程序位置接口的效果展示"
     }
+
   },
   "requiredPrivateInfos": [
-    "chooseLocation",
-    "getFuzzyLocation"
+    "chooseLocation" 
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

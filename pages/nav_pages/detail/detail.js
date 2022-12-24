@@ -50,7 +50,8 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload() {
-
+    const eventChannel=this.getOpenerEventChannel()
+    eventChannel.emit("backData1",{name:"abc",age:18})
   },
 
   /**

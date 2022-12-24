@@ -1,0 +1,4 @@
+<!--pages/ucharts/index.wxml-->
+<view class="charts">
+  <!-- <canvas canvas-id="column" id="column" class="charts" bindtouchend="tap"/> -->
+</view>
