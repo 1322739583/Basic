@@ -27,7 +27,7 @@ Page({
             id: res.data[i].id*1,
             latitude: res.data[i].location.lat,
             longitude: res.data[i].location.lng,
-            iconPath: "../imgs/icon_marker.png", //图标路径
+            iconPath: "../imgs/icon_marker.jpg", //图标路径
             width: 41,
             height: 45
           })

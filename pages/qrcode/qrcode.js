@@ -47,7 +47,7 @@ Page({
       text: 'https://www.baidu.com',
       // v1.0.0+版本支持在二维码上绘制图片
       image: {
-        imageResource: './imgs/icon_marker.png',
+        imageResource: './imgs/icon.jpg',
         dx: 70,
         dy: 70,
         dWidth: 60,
